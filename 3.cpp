@@ -38,6 +38,7 @@ bool Stack::push(int x) {
     if (top >= (MAX - 1)) {
         cout << "Stack Overflow";
         return false;
+        
     }
     else {
         top++;
